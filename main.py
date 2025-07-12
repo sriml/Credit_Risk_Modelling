@@ -55,6 +55,18 @@ if st.button('Calculate Risk'):
 
     # Display the results
 
-    st.write(f"Calculated Credit Score of Customer: {credit_score}")
-    st.write(f"Calculated Credit Rating of Customer: {rating}")
-    st.write(f"Probability that the Customer could become defaulter (Risk): {probability:.2%}")
+    # st.write(f"Calculated Credit Score of Customer: {credit_score}")
+    st.markdown(
+        f"<span style='color:blue; font-weight:bold;'>Calculated Credit Score of Customer: {credit_score}</span>",
+        unsafe_allow_html=True
+    )
+    st.markdown(
+        f"<span style='color:blue; font-weight:bold;'>Calculated Credit Rating of Customer: {rating}</span>",
+        unsafe_allow_html=True
+    )
+    st.markdown(
+        f"<span style='color:blue; font-weight:bold;'>Probability that the Customer could become defaulter (Risk): {probability:.2%}</span>",
+        unsafe_allow_html=True
+    )
+    # st.write(f"Calculated Credit Rating of Customer: {rating}")
+    # st.write(f"Probability that the Customer could become defaulter (Risk): {probability:.2%}")
