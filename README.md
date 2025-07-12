@@ -1,2 +1,10 @@
 # Credit_Risk_Modelling
 Credit_Risk_Modelling Classification Project
+
+
+
+
+
+
+
+![img.png](img.png)
