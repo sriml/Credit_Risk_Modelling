@@ -1,7 +1,7 @@
 import streamlit as st
 from prediction_helper import predict
 
-st.title("Credit Risk Modelling")
+st.title("Credit Risk Modeling")
 
 # Create rows of three columns each
 row1 = st.columns(3)
